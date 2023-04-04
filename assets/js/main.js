@@ -21,9 +21,9 @@ window.onscroll = ()=>{
     boat.style.left = value + 'px';
     novil.style.fontSize = value + 'px'
     if(scrollY >= 91){
-        novil.style.fontSize = 91 + 'px'
+        novil.style.fontSize = 60 + 'px'
         novil.style.position = 'fixed'
-        if(scrollY >= 433){
+        if(scrollY >= 376){
             novil.style.display = 'none'
         }else{
             novil.style.display = 'block'

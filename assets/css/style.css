@@ -139,6 +139,13 @@ header{
         text-align: center;
     }
 }
+@media(max-width:414px){
+    .text{
+        padding: 90px 50px;
+        font-size: 15px;
+    }
+}
+
 .main::after{
     content: '';
     position: absolute;
@@ -167,7 +174,12 @@ header{
 }
 
 
-
+@media(max-width:360px){
+    .novil{
+        font-size: 16px;
+        transform: translateY(-110px);
+    }
+}
 
 .Purple_Mountains{
     background-color: #10001f;
@@ -176,6 +188,7 @@ header{
     justify-content: space-around;
     color: white;
 }
+
 
 .pngegg img{
     width: 268px;
@@ -210,6 +223,7 @@ header{
        padding-bottom: 15px;
     }
 }
+
 
 .Most_famous{
     background-color: #10001f;
